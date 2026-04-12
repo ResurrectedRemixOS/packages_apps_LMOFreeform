@@ -43,6 +43,7 @@ fun SidebarSettingsPage(
     val mainChecked by viewModel.sidebarEnabledFlow.collectAsState()
     val predictedChecked by viewModel.predictedAppsEnabledFlow.collectAsState()
     val clipboardChecked by viewModel.smartClipboardEnabledFlow.collectAsState()
+    val hideOnGameSpace by viewModel.hideOnGameSpaceFlow.collectAsState()
 
     CompositionLocalProvider(navController.localNavController()) {
         SettingsScaffold(
@@ -76,6 +77,12 @@ fun SidebarSettingsPage(
                         SidebarExpirationPreference(viewModel)
                         SidebarClearHistoryButton(viewModel)
                     }
+                    SidebarSettingSwitch(
+                        title = stringResource(R.string.sidebar_hide_on_gamespace_title),
+                        summary = stringResource(R.string.sidebar_hide_on_gamespace_summary),
+                        isChecked = hideOnGameSpace,
+                        onCheckedChange = { viewModel.setHideOnGameSpace(it) }
+                    )
                     SidebarAppList(viewModel)
                 }
             }

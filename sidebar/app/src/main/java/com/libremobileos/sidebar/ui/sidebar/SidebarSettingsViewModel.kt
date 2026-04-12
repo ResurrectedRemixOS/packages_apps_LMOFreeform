@@ -56,6 +56,9 @@ class SidebarSettingsViewModel(private val application: Application) : AndroidVi
     val expirationMinutesFlow: StateFlow<Int>
         get() = _expirationMinutes.asStateFlow()
     private val _expirationMinutes = MutableStateFlow(0)
+    val hideOnGameSpaceFlow: StateFlow<Boolean>
+        get() = _hideOnGameSpace.asStateFlow()
+    private val _hideOnGameSpace = MutableStateFlow(false)
 
     val isEnabled = UserHandle.myUserId() == 0
     private val appContext = application.applicationContext
@@ -69,6 +72,7 @@ class SidebarSettingsViewModel(private val application: Application) : AndroidVi
             KEY_SHOW_PREDICTED_APPS -> _predictedAppsEnabled.value = getPredictedAppsEnabled()
             KEY_SMART_CLIPBOARD -> _smartClipboardEnabled.value = getSmartClipboardEnabled()
             KEY_CLIPBOARD_EXPIRATION_HOURS -> _expirationMinutes.value = getClipboardExpirationHours()
+            SidebarService.SIDEBAR_HIDE_ON_GAMESPACE -> _hideOnGameSpace.value = getHideOnGameSpace()
         }
     }
 
@@ -90,6 +94,7 @@ class SidebarSettingsViewModel(private val application: Application) : AndroidVi
             _predictedAppsEnabled.value = getPredictedAppsEnabled()
             _smartClipboardEnabled.value = getSmartClipboardEnabled()
             _expirationMinutes.value = getClipboardExpirationHours()
+            _hideOnGameSpace.value = getHideOnGameSpace()
             sp.registerOnSharedPreferenceChangeListener(prefsListener)
 
             initAllAppList()
@@ -164,6 +169,15 @@ class SidebarSettingsViewModel(private val application: Application) : AndroidVi
     fun setClipboardExpirationHours(minutes: Int) {
         sp.edit()
             .putInt(KEY_CLIPBOARD_EXPIRATION_HOURS, minutes)
+            .apply()
+    }
+
+    fun getHideOnGameSpace(): Boolean =
+        sp.getBoolean(SidebarService.SIDEBAR_HIDE_ON_GAMESPACE, false)
+
+    fun setHideOnGameSpace(enabled: Boolean) {
+        sp.edit()
+            .putBoolean(SidebarService.SIDEBAR_HIDE_ON_GAMESPACE, enabled)
             .apply()
     }
 

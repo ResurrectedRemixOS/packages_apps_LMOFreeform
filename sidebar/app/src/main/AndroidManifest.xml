@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_HIDDEN_PROFILES_FULL"/>
     <uses-permission android:name="android.permission.READ_CLIPBOARD_IN_BACKGROUND"/>
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE" />
     <!-- RR: the tools row's screenshot -->
     <uses-permission android:name="android.permission.INJECT_EVENTS"/>
 
@@ -88,5 +89,14 @@
         <receiver
             android:name=".receiver.SmartClipboardJanitorReceiver"
             android:exported="false" />
+
+        <receiver
+            android:name=".receiver.GameSpaceReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.chaldeaprjkt.gamespace.action.GAME_START" />
+                <action android:name="io.chaldeaprjkt.gamespace.action.GAME_STOP" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>

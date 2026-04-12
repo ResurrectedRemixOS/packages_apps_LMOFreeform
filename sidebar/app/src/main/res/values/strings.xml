@@ -42,4 +42,6 @@
     <string name="smart_clipboard_cancel">Cancel</string>
     <string name="smart_clipboard_clear">Clear</string>
     <string name="smart_clipboard_missing_file">File missing</string>
+    <string name="sidebar_hide_on_gamespace_title">Hide when GameSpace is active</string>
+    <string name="sidebar_hide_on_gamespace_summary">Automatically hide the sidebar slider when a game is running with GameSpace</string>
 </resources>
