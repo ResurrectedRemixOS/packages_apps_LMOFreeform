@@ -8,5 +8,6 @@
         <permission name="android.permission.ACCESS_HIDDEN_PROFILES_FULL"/>
         <permission name="android.permission.READ_CLIPBOARD_IN_BACKGROUND"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+        <permission name="android.permission.MANAGE_GAME_MODE"/>
     </privapp-permissions>
 </permissions>
