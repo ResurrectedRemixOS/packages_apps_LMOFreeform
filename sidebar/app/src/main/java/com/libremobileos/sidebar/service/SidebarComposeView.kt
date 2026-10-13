@@ -28,6 +28,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.border
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
@@ -59,6 +61,14 @@ fun SidebarComposeView(
     closeSidebar: () -> Unit,
     modifier: Modifier = Modifier
 ) {
+    // RR looks, on rr_sidebar_style: 0 classic, 1 RR glass, 2 neon.
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val rrStyle = remember {
+        android.provider.Settings.System.getIntForUser(context.contentResolver,
+            "rr_sidebar_style", 1, android.os.UserHandle.USER_CURRENT)
+    }
+    val accent = androidx.compose.ui.graphics.Color(context.getColor(android.R.color.system_accent1_400))
+    neonAccent = if (rrStyle == 2) accent else androidx.compose.ui.graphics.Color.Unspecified
     val sidebarAppList by viewModel.sidebarAppListFlow.collectAsState()
     val smartClipboardItems by viewModel.smartClipboardItemsFlow.collectAsState()
     val smartClipboardEnabled by viewModel.smartClipboardEnabledFlow.collectAsState()
@@ -81,10 +91,11 @@ fun SidebarComposeView(
 
     val maxScreenWidth = config.screenWidthDp.dp * 0.85f
     val panelAlignment = if (opensFromLeft) Alignment.CenterStart else Alignment.CenterEnd
+    val corner = if (rrStyle == 0) 12.dp else 24.dp
     val panelShape = if (opensFromLeft) {
-        RoundedCornerShape(topStart = 0.dp, bottomStart = 0.dp, topEnd = 12.dp, bottomEnd = 12.dp)
+        RoundedCornerShape(topStart = 0.dp, bottomStart = 0.dp, topEnd = corner, bottomEnd = corner)
     } else {
-        RoundedCornerShape(topStart = 12.dp, bottomStart = 12.dp, topEnd = 0.dp, bottomEnd = 0.dp)
+        RoundedCornerShape(topStart = corner, bottomStart = corner, topEnd = 0.dp, bottomEnd = 0.dp)
     }
     val handleAlignment = if (opensFromLeft) Alignment.TopEnd else Alignment.TopStart
     val resizeHandleAlignment = if (opensFromLeft) Alignment.BottomEnd else Alignment.BottomStart
@@ -135,7 +146,17 @@ fun SidebarComposeView(
         }
 
         Card(
-            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            colors = CardDefaults.cardColors(containerColor = when (rrStyle) {
+                1 -> MaterialTheme.colorScheme.surface.copy(alpha = 0.78f)
+                2 -> androidx.compose.ui.graphics.Color(0xF0120A0C)
+                else -> MaterialTheme.colorScheme.surface
+            }),
+            border = when (rrStyle) {
+                1 -> androidx.compose.foundation.BorderStroke(1.dp,
+                    androidx.compose.ui.graphics.Color.White.copy(alpha = 0.16f))
+                2 -> androidx.compose.foundation.BorderStroke(1.5.dp, accent)
+                else -> null
+            },
             shape = panelShape,
             modifier = Modifier
                 .offset { IntOffset(0, safeOffset.roundToInt()) }
@@ -258,6 +279,16 @@ fun SidebarComposeView(
     }
 }
 
+/** Set when the sidebar opens; the neon look rings each app in it. */
+private var neonAccent = androidx.compose.ui.graphics.Color.Unspecified
+
+private fun neonRing(): Modifier =
+    if (neonAccent == androidx.compose.ui.graphics.Color.Unspecified) Modifier
+    else Modifier
+        .shadow(6.dp, CircleShape, ambientColor = neonAccent, spotColor = neonAccent)
+        .border(1.5.dp, neonAccent, CircleShape)
+        .padding(4.dp)
+
 @Composable
 private fun AppGridContent(appList: List<AppInfo>, onLaunch: (AppInfo) -> Unit) {
     BoxWithConstraints(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -286,7 +317,7 @@ private fun AppGridContent(appList: List<AppInfo>, onLaunch: (AppInfo) -> Unit) 
                         Image(
                             painter = rememberDrawablePainter(drawable = appInfo.icon),
                             contentDescription = null,
-                            modifier = Modifier.size(iconSize).clip(CircleShape).clickable { onLaunch(appInfo) }
+                            modifier = Modifier.size(iconSize).then(neonRing()).clip(CircleShape).clickable { onLaunch(appInfo) }
                         )
                         Text(
                             text = appInfo.label,
@@ -311,7 +342,7 @@ private fun AppIconItem(appInfo: AppInfo, onLaunch: (AppInfo) -> Unit, available
         Image(
             painter = rememberDrawablePainter(drawable = appInfo.icon),
             contentDescription = null,
-            modifier = Modifier.size(iconSize).clip(CircleShape).clickable { onLaunch(appInfo) }
+            modifier = Modifier.size(iconSize).then(neonRing()).clip(CircleShape).clickable { onLaunch(appInfo) }
         )
         Text(
             text = appInfo.label,
