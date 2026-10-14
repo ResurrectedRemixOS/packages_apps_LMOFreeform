@@ -8,6 +8,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.content.res.Configuration
+import android.database.ContentObserver
 import android.graphics.PixelFormat
 import android.graphics.Rect
 import android.os.Handler
@@ -48,11 +49,47 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
         val gestureManager = MGestureManager(this@SidebarService, GestureListener(this@SidebarService))
         View(this).apply {
             background = AppCompatResources.getDrawable(this@SidebarService, R.drawable.ic_line)
+                ?.mutate()
             setOnTouchListener { _, event ->
                 gestureManager.onTouchEvent(event)
                 true
             }
         }
+    }
+
+    // RR: the handle's size and accent, from Remixer.
+    private var sidelineHeight = SIDELINE_HEIGHT
+    private val rrObserver = object : ContentObserver(Handler(Looper.getMainLooper())) {
+        override fun onChange(selfChange: Boolean) {
+            applyRrHandle()
+            if (isShowingSideline) {
+                layoutParams.height = sidelineHeight
+                layoutParams.y = constrainY(layoutParams.y)
+                updateExclusion()
+                updateViewLayout()
+            }
+        }
+    }
+
+    private fun applyRrHandle() {
+        fun setting(key: String, def: Int) = android.provider.Settings.System.getIntForUser(
+            contentResolver, key, def, UserHandle.USER_CURRENT)
+        sidelineHeight = when (setting(RR_HANDLE_SIZE, 1)) {
+            0 -> SIDELINE_HEIGHT * 3 / 4
+            2 -> SIDELINE_HEIGHT * 7 / 5
+            else -> SIDELINE_HEIGHT
+        }
+        if (setting(RR_STYLE, 1) == 0) {
+            sideLineView.background?.setTintList(null)
+        } else {
+            sideLineView.background?.setTint(getColor(android.R.color.system_accent1_300))
+        }
+    }
+
+    private fun updateExclusion() {
+        sideLineView.setSystemGestureExclusionRects(
+            listOf(Rect(0, 0, SIDELINE_WIDTH, sidelineHeight))
+        )
     }
 
     private val userSwitchObserver = object : UserSwitchObserver() {
@@ -92,6 +129,8 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
             "com.libremobileos.sidebar.action.IMPORT_TO_SMART_CLIPBOARD"
         const val ACTION_SHOW_SIDEBAR =
             "com.libremobileos.sidebar.action.SHOW_SIDEBAR"
+        private const val RR_HANDLE_SIZE = "rr_sidebar_handle_size"
+        private const val RR_STYLE = "rr_sidebar_style"
     }
 
     override fun onBind(intent: Intent): IBinder? {
@@ -126,6 +165,13 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
                 }
             })
             configureSidelineDragListener()
+            for (key in arrayOf(RR_HANDLE_SIZE, RR_STYLE)) {
+                contentResolver.registerContentObserver(
+                    android.provider.Settings.System.getUriFor(key), false, rrObserver,
+                    UserHandle.USER_ALL
+                )
+            }
+            applyRrHandle()
             isShowingSidebar = false
             showSideline = sharedPrefs.getBoolean(SIDELINE, false)
             logger.d("screenWidth=$screenWidth screenHeight=$screenHeight showSideline=$showSideline")
@@ -174,6 +220,7 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
         super.onDestroy()
         if (!serviceStarted) return
         sharedPrefs.unregisterOnSharedPreferenceChangeListener(this)
+        contentResolver.unregisterContentObserver(rrObserver)
         iActivityManager.unregisterUserSwitchObserver(userSwitchObserver)
         removeView(force = true)
         viewModel.unregisterCallbacks()
@@ -249,8 +296,8 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
             0
         }
         val newY = y.coerceIn(
-            -(screenHeight / 2 - sbHeight - SIDELINE_HEIGHT / 2),
-            screenHeight / 2 - navbarHeight - SIDELINE_HEIGHT / 2
+            -(screenHeight / 2 - sbHeight - sidelineHeight / 2),
+            screenHeight / 2 - navbarHeight - sidelineHeight / 2
         )
         logger.d("constrainY: $y -> $newY")
         return newY
@@ -268,7 +315,7 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
         layoutParams.apply {
             type = LayoutParams.TYPE_APPLICATION_OVERLAY
             width = SIDELINE_WIDTH
-            height = SIDELINE_HEIGHT
+            height = sidelineHeight
             flags = LayoutParams.FLAG_NOT_FOCUSABLE or
                     LayoutParams.FLAG_NOT_TOUCH_MODAL or
                     LayoutParams.FLAG_HARDWARE_ACCELERATED
@@ -279,9 +326,7 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
             windowAnimations = android.R.style.Animation_Dialog
         }
 
-        sideLineView.setSystemGestureExclusionRects(
-            listOf(Rect(0, 0, SIDELINE_WIDTH, SIDELINE_HEIGHT))
-        )
+        updateExclusion()
 
         updateSidelinePosition()
 

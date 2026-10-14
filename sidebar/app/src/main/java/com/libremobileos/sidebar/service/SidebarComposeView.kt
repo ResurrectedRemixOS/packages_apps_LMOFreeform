@@ -69,6 +69,10 @@ fun SidebarComposeView(
     }
     val accent = androidx.compose.ui.graphics.Color(context.getColor(android.R.color.system_accent1_400))
     neonAccent = if (rrStyle == 2) accent else androidx.compose.ui.graphics.Color.Unspecified
+    val showTools = remember {
+        android.provider.Settings.System.getIntForUser(context.contentResolver,
+            "rr_sidebar_tools", 1, android.os.UserHandle.USER_CURRENT) == 1
+    }
     val sidebarAppList by viewModel.sidebarAppListFlow.collectAsState()
     val smartClipboardItems by viewModel.smartClipboardItemsFlow.collectAsState()
     val smartClipboardEnabled by viewModel.smartClipboardEnabledFlow.collectAsState()
@@ -208,6 +212,10 @@ fun SidebarComposeView(
                         }
                     }
 
+                    if (showTools && pagerState.currentPage == 0) {
+                        ToolsRow(accent = accent, closeSidebar = closeSidebar)
+                    }
+
                     Row(
                         Modifier.fillMaxWidth().padding(vertical = 16.dp),
                         horizontalArrangement = Arrangement.Center,
@@ -276,6 +284,83 @@ fun SidebarComposeView(
             }
         )
     }
+    }
+}
+
+/** RR: screenshot and flashlight under the apps. */
+@Composable
+private fun ToolsRow(accent: androidx.compose.ui.graphics.Color, closeSidebar: () -> Unit) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val camera = remember { context.getSystemService(android.hardware.camera2.CameraManager::class.java) }
+    val torchId = remember {
+        runCatching {
+            camera?.cameraIdList?.firstOrNull { id ->
+                camera.getCameraCharacteristics(id).get(
+                    android.hardware.camera2.CameraCharacteristics.FLASH_INFO_AVAILABLE) == true
+            }
+        }.getOrNull()
+    }
+    var torchOn by remember { mutableStateOf(false) }
+    DisposableEffect(torchId) {
+        val callback = object : android.hardware.camera2.CameraManager.TorchCallback() {
+            override fun onTorchModeChanged(cameraId: String, enabled: Boolean) {
+                if (cameraId == torchId) torchOn = enabled
+            }
+        }
+        if (torchId != null) {
+            camera?.registerTorchCallback(callback,
+                android.os.Handler(android.os.Looper.getMainLooper()))
+        }
+        onDispose { if (torchId != null) camera?.unregisterTorchCallback(callback) }
+    }
+    Row(
+        modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly,
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        ToolButton(R.drawable.ic_rr_screenshot, active = false, accent = accent) {
+            // Close first, so the sidebar isn't in the picture.
+            closeSidebar()
+            android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({ screenshot() }, 400)
+        }
+        if (torchId != null) {
+            ToolButton(R.drawable.ic_rr_flashlight, active = torchOn, accent = accent) {
+                runCatching { camera?.setTorchMode(torchId, !torchOn) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ToolButton(
+    icon: Int,
+    active: Boolean,
+    accent: androidx.compose.ui.graphics.Color,
+    onClick: () -> Unit,
+) {
+    Box(
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(if (active) accent else MaterialTheme.colorScheme.onSurface.copy(alpha = 0.08f))
+            .clickable(onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(
+            painterResource(icon), null, Modifier.size(20.dp),
+            if (active) androidx.compose.ui.graphics.Color.White else MaterialTheme.colorScheme.onSurface
+        )
+    }
+}
+
+private fun screenshot() {
+    val now = android.os.SystemClock.uptimeMillis()
+    val input = android.hardware.input.InputManagerGlobal.getInstance()
+    for (action in intArrayOf(android.view.KeyEvent.ACTION_DOWN, android.view.KeyEvent.ACTION_UP)) {
+        input.injectInputEvent(
+            android.view.KeyEvent(now, now, action, android.view.KeyEvent.KEYCODE_SYSRQ, 0),
+            android.hardware.input.InputManager.INJECT_INPUT_EVENT_MODE_ASYNC
+        )
     }
 }
 

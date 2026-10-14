@@ -15,6 +15,8 @@
     <uses-permission android:name="android.permission.ACCESS_HIDDEN_PROFILES_FULL"/>
     <uses-permission android:name="android.permission.READ_CLIPBOARD_IN_BACKGROUND"/>
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <!-- RR: the tools row's screenshot -->
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
 
     <application
         android:name=".app.SidebarApplication"
@@ -28,15 +30,7 @@
             android:exported="true"
             android:label="@string/sidebar_label"
             android:theme="@style/Theme.SpaLib">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.apps" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/sidebar_summary" />
+            <!-- RR: Settings > Apps opens Remixer's app sidebar page, which links here. -->
         </activity>
 
         <activity
