@@ -3,4 +3,5 @@
     <string name="freeform_options">"Opsi"</string>
     <string name="freeform_fullscreen">"Layar Penuh"</string>
     <string name="freeform_minimize">"Perkecil"</string>
+    <string name="freeform_close">Tutup</string>
 </resources>

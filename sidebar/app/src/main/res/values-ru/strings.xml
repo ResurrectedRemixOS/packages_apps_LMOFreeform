@@ -17,4 +17,6 @@
     <string name="smart_clipboard_share">"Поделиться"</string>
     <string name="smart_clipboard_delete">"Удалить"</string>
     <string name="smart_clipboard_cancel">"Отмена"</string>
+    <string name="smart_clipboard_unpin">Открепить</string>
+    <string name="smart_clipboard_clear">Очистить</string>
 </resources>

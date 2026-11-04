@@ -17,4 +17,6 @@
     <string name="smart_clipboard_share">"Teilen"</string>
     <string name="smart_clipboard_delete">"Löschen"</string>
     <string name="smart_clipboard_cancel">"Abbrechen"</string>
+    <string name="smart_clipboard_unpin">Lösen</string>
+    <string name="smart_clipboard_clear">Löschen</string>
 </resources>

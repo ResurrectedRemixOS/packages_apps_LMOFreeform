@@ -17,4 +17,6 @@
     <string name="smart_clipboard_share">"Bagikan"</string>
     <string name="smart_clipboard_delete">"Hapus"</string>
     <string name="smart_clipboard_cancel">"Batal"</string>
+    <string name="smart_clipboard_unpin">Lepas sematan</string>
+    <string name="smart_clipboard_clear">Hapus</string>
 </resources>
