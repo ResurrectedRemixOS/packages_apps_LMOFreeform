@@ -15,4 +15,7 @@
     <string name="smart_clipboard_share">"Partager"</string>
     <string name="smart_clipboard_delete">"Supprimer"</string>
     <string name="smart_clipboard_cancel">"Annuler"</string>
+    <string name="smart_clipboard_image">Image</string>
+    <string name="smart_clipboard_unpin">Retirer</string>
+    <string name="smart_clipboard_clear">Effacer</string>
 </resources>

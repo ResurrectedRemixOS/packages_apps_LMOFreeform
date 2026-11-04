@@ -3,4 +3,5 @@
     <string name="freeform_options">"Seçenekler"</string>
     <string name="freeform_fullscreen">"Tam Ekran"</string>
     <string name="freeform_minimize">"Küçült"</string>
+    <string name="freeform_close">Kapat</string>
 </resources>

@@ -2,4 +2,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="freeform_fullscreen">"Plein écran"</string>
     <string name="freeform_minimize">"Réduire"</string>
+    <string name="freeform_close">Fermer</string>
 </resources>
