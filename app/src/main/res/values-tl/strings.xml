@@ -2,4 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="freeform_options">"Mga Opsyon"</string>
     <string name="freeform_minimize">"I-minimize"</string>
+    <string name="freeform_fullscreen">Fullscreen</string>
+    <string name="freeform_close">Isara</string>
 </resources>

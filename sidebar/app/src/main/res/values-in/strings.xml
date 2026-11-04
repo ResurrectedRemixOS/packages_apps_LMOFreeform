@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"Batal"</string>
     <string name="smart_clipboard_unpin">Lepas sematan</string>
     <string name="smart_clipboard_clear">Hapus</string>
+    <string name="smart_clipboard_label">Papan Klip Pintar</string>
+    <string name="smart_clipboard_summary">Simpan teks, gambar, dan file yang disalin, dibagikan, atau diseret di Bilah samping untuk digunakan kembali dengan cepat</string>
+    <string name="smart_clipboard_expiration_label">Simpan klip selama</string>
+    <string name="smart_clipboard_expiration_1_week">1 minggu</string>
+    <string name="smart_clipboard_empty">Salin, bagikan, atau seret teks dan gambar ke sini untuk menyimpannya di Bilah samping.</string>
+    <string name="smart_clipboard_copy">Salin lagi</string>
+    <string name="smart_clipboard_copy_description">Salin item papan klip lagi</string>
+    <string name="smart_clipboard_share_description">Bagikan item papan klip</string>
+    <string name="smart_clipboard_delete_description">Hapus item papan klip</string>
+    <string name="smart_clipboard_pin_description">Sematkan item papan klip</string>
+    <string name="smart_clipboard_unpin_description">Lepas sematan item papan klip</string>
+    <string name="smart_clipboard_image_description">Pratinjau gambar papan klip</string>
+    <string name="smart_clipboard_text_description">Item teks papan klip</string>
+    <string name="smart_clipboard_file_description">Item file papan klip</string>
+    <string name="smart_clipboard_saved">Disimpan ke Papan Klip Pintar</string>
+    <string name="smart_clipboard_unsupported">Jenis konten tidak didukung</string>
+    <string name="smart_clipboard_file_too_large">File terlalu besar untuk disimpan (Maks. 100 MB)</string>
+    <string name="smart_clipboard_enabled">Papan Klip Pintar diaktifkan</string>
+    <string name="smart_clipboard_clear_history">Hapus riwayat sekarang</string>
+    <string name="smart_clipboard_clear_title">Kosongkan Papan Klip</string>
+    <string name="smart_clipboard_clear_message">Yakin ingin menghapus riwayat papan klip yang tidak disematkan?</string>
+    <string name="smart_clipboard_missing_file">File tidak ditemukan</string>
 </resources>

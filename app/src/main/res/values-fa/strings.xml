@@ -3,4 +3,5 @@
     <string name="freeform_options">"گزینه‌ها"</string>
     <string name="freeform_fullscreen">"تمام‌صفحه"</string>
     <string name="freeform_minimize">"کوچک کردن"</string>
+    <string name="freeform_close">بستن</string>
 </resources>

@@ -3,4 +3,5 @@
     <string name="freeform_options">"Seçimlər"</string>
     <string name="freeform_fullscreen">"Tam Ekran"</string>
     <string name="freeform_minimize">"Kiçildin"</string>
+    <string name="freeform_close">Bağla</string>
 </resources>

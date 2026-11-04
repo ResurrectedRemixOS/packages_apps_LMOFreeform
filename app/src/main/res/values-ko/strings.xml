@@ -3,4 +3,5 @@
     <string name="freeform_options">"옵션"</string>
     <string name="freeform_fullscreen">"전체 화면"</string>
     <string name="freeform_minimize">"최소화"</string>
+    <string name="freeform_close">닫기</string>
 </resources>

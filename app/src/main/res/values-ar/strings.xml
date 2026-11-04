@@ -3,4 +3,5 @@
     <string name="freeform_options">"الخيارات"</string>
     <string name="freeform_fullscreen">"ملء الشاشة"</string>
     <string name="freeform_minimize">"تصغير"</string>
+    <string name="freeform_close">إغلاق</string>
 </resources>

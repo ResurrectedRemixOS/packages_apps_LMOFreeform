@@ -18,4 +18,27 @@
     <string name="smart_clipboard_image">Image</string>
     <string name="smart_clipboard_unpin">Retirer</string>
     <string name="smart_clipboard_clear">Effacer</string>
+    <string name="smart_clipboard_label">Presse-papiers intelligent</string>
+    <string name="smart_clipboard_summary">Conserve le texte ou les images copiés, partagés ou déposés dans la barre latérale pour les réutiliser rapidement</string>
+    <string name="smart_clipboard_expiration_label">Conserver les éléments pendant</string>
+    <string name="smart_clipboard_expiration_15_min">15 minutes</string>
+    <string name="smart_clipboard_expiration_1_week">1 semaine</string>
+    <string name="smart_clipboard_empty">Copiez, partagez ou faites glisser du texte et des images ici pour les conserver dans la barre latérale.</string>
+    <string name="smart_clipboard_copy">Copier à nouveau</string>
+    <string name="smart_clipboard_copy_description">Copier à nouveau l\'élément du presse-papiers</string>
+    <string name="smart_clipboard_share_description">Partager l\'élément du presse-papiers</string>
+    <string name="smart_clipboard_delete_description">Supprimer l\'élément du presse-papiers</string>
+    <string name="smart_clipboard_pin_description">Épingler l\'élément du presse-papiers</string>
+    <string name="smart_clipboard_unpin_description">Désépingler l\'élément du presse-papiers</string>
+    <string name="smart_clipboard_image_description">Aperçu de l\'image du presse-papiers</string>
+    <string name="smart_clipboard_text_description">Élément texte du presse-papiers</string>
+    <string name="smart_clipboard_file_description">Élément fichier du presse-papiers</string>
+    <string name="smart_clipboard_saved">Enregistré dans le presse-papiers intelligent</string>
+    <string name="smart_clipboard_unsupported">Type de contenu non pris en charge</string>
+    <string name="smart_clipboard_file_too_large">Fichier trop volumineux pour être enregistré (100 Mo max.)</string>
+    <string name="smart_clipboard_enabled">Presse-papiers intelligent activé</string>
+    <string name="smart_clipboard_clear_history">Vider l\'historique maintenant</string>
+    <string name="smart_clipboard_clear_title">Vider le presse-papiers</string>
+    <string name="smart_clipboard_clear_message">Voulez-vous vraiment vider l\'historique du presse-papiers non épinglé ?</string>
+    <string name="smart_clipboard_missing_file">Fichier introuvable</string>
 </resources>

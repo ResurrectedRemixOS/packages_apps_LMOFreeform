@@ -3,4 +3,5 @@
     <string name="freeform_options">"விருப்பங்கள்"</string>
     <string name="freeform_fullscreen">"முழுத்திரை"</string>
     <string name="freeform_minimize">"சிறிதாக்கு"</string>
+    <string name="freeform_close">மூடு</string>
 </resources>

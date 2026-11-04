@@ -3,4 +3,5 @@
     <string name="freeform_options">"Տարբերակներ"</string>
     <string name="freeform_fullscreen">"Լիաէկրան"</string>
     <string name="freeform_minimize">"Ծալել"</string>
+    <string name="freeform_close">Փակել</string>
 </resources>

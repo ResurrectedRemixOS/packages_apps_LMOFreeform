@@ -3,4 +3,5 @@
     <string name="freeform_options">"Variantlar"</string>
     <string name="freeform_fullscreen">"Butun ekran"</string>
     <string name="freeform_minimize">"Kichraytirish"</string>
+    <string name="freeform_close">Yopish</string>
 </resources>

@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"Cancelar"</string>
     <string name="smart_clipboard_unpin">Desafixar</string>
     <string name="smart_clipboard_clear">Limpar</string>
+    <string name="smart_clipboard_label">Área de transferência inteligente</string>
+    <string name="smart_clipboard_summary">Manter textos ou imagens copiados, compartilhados e arrastados na Barra lateral para reutilização rápida</string>
+    <string name="smart_clipboard_expiration_label">Manter itens por</string>
+    <string name="smart_clipboard_expiration_1_week">1 semana</string>
+    <string name="smart_clipboard_empty">Copie, compartilhe ou arraste textos e imagens aqui para mantê-los na Barra lateral.</string>
+    <string name="smart_clipboard_copy">Copiar novamente</string>
+    <string name="smart_clipboard_copy_description">Copiar item da área de transferência novamente</string>
+    <string name="smart_clipboard_share_description">Compartilhar item da área de transferência</string>
+    <string name="smart_clipboard_delete_description">Excluir item da área de transferência</string>
+    <string name="smart_clipboard_pin_description">Fixar item da área de transferência</string>
+    <string name="smart_clipboard_unpin_description">Desafixar item da área de transferência</string>
+    <string name="smart_clipboard_image_description">Pré-visualização da imagem da área de transferência</string>
+    <string name="smart_clipboard_text_description">Item de texto da área de transferência</string>
+    <string name="smart_clipboard_file_description">Item de arquivo da área de transferência</string>
+    <string name="smart_clipboard_saved">Salvo na Área de transferência inteligente</string>
+    <string name="smart_clipboard_unsupported">Tipo de conteúdo não compatível</string>
+    <string name="smart_clipboard_file_too_large">O arquivo é grande demais para salvar (máx. 100 MB)</string>
+    <string name="smart_clipboard_enabled">Área de transferência inteligente ativada</string>
+    <string name="smart_clipboard_clear_history">Limpar histórico agora</string>
+    <string name="smart_clipboard_clear_title">Limpar área de transferência</string>
+    <string name="smart_clipboard_clear_message">Tem certeza de que deseja limpar o histórico da área de transferência não fixado?</string>
+    <string name="smart_clipboard_missing_file">Arquivo ausente</string>
 </resources>

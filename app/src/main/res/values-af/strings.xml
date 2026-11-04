@@ -3,4 +3,5 @@
     <string name="freeform_options">"Opsies"</string>
     <string name="freeform_fullscreen">"Volskerm"</string>
     <string name="freeform_minimize">"Minimeer"</string>
+    <string name="freeform_close">Sluit</string>
 </resources>

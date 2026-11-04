@@ -3,4 +3,5 @@
     <string name="freeform_options">"বিকল্পসমূহ"</string>
     <string name="freeform_fullscreen">"সম্পূৰ্ণ স্ক্ৰীন"</string>
     <string name="freeform_minimize">"সৰু কৰক"</string>
+    <string name="freeform_close">বন্ধ কৰক</string>
 </resources>

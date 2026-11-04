@@ -3,4 +3,5 @@
     <string name="freeform_options">"Valgmuligheder"</string>
     <string name="freeform_fullscreen">"Fuld skærm"</string>
     <string name="freeform_minimize">"Minimer"</string>
+    <string name="freeform_close">Luk</string>
 </resources>

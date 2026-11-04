@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"Abbrechen"</string>
     <string name="smart_clipboard_unpin">Lösen</string>
     <string name="smart_clipboard_clear">Löschen</string>
+    <string name="smart_clipboard_label">Intelligente Zwischenablage</string>
+    <string name="smart_clipboard_summary">Kopierten, geteilten und abgelegten Text oder Bilder in der Seitenleiste für die schnelle Wiederverwendung behalten</string>
+    <string name="smart_clipboard_expiration_label">Einträge behalten für</string>
+    <string name="smart_clipboard_expiration_1_week">1 Woche</string>
+    <string name="smart_clipboard_empty">Text und Bilder hierher kopieren, teilen oder ziehen, um sie in der Seitenleiste zu behalten.</string>
+    <string name="smart_clipboard_copy">Erneut kopieren</string>
+    <string name="smart_clipboard_copy_description">Zwischenablage-Eintrag erneut kopieren</string>
+    <string name="smart_clipboard_share_description">Zwischenablage-Eintrag teilen</string>
+    <string name="smart_clipboard_delete_description">Zwischenablage-Eintrag löschen</string>
+    <string name="smart_clipboard_pin_description">Zwischenablage-Eintrag anheften</string>
+    <string name="smart_clipboard_unpin_description">Zwischenablage-Eintrag lösen</string>
+    <string name="smart_clipboard_image_description">Vorschau des Zwischenablage-Bilds</string>
+    <string name="smart_clipboard_text_description">Text-Eintrag der Zwischenablage</string>
+    <string name="smart_clipboard_file_description">Datei-Eintrag der Zwischenablage</string>
+    <string name="smart_clipboard_saved">In der intelligenten Zwischenablage gespeichert</string>
+    <string name="smart_clipboard_unsupported">Nicht unterstützter Inhaltstyp</string>
+    <string name="smart_clipboard_file_too_large">Datei ist zu groß zum Speichern (maximal 100 MB)</string>
+    <string name="smart_clipboard_enabled">Intelligente Zwischenablage aktiviert</string>
+    <string name="smart_clipboard_clear_history">Verlauf jetzt leeren</string>
+    <string name="smart_clipboard_clear_title">Zwischenablage leeren</string>
+    <string name="smart_clipboard_clear_message">Möchtest du den Verlauf der nicht angehefteten Zwischenablage wirklich leeren?</string>
+    <string name="smart_clipboard_missing_file">Datei fehlt</string>
 </resources>

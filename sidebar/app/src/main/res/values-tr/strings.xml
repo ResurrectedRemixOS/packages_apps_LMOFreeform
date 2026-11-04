@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"İptal"</string>
     <string name="smart_clipboard_unpin">Sabitlemeyi kaldır</string>
     <string name="smart_clipboard_clear">Temizle</string>
+    <string name="smart_clipboard_label">Akıllı Pano</string>
+    <string name="smart_clipboard_summary">Kopyalanan, paylaşılan ve bırakılan metin veya görselleri hızlı yeniden kullanım için Kenar Çubuğu\'nda tut</string>
+    <string name="smart_clipboard_expiration_label">Kliplerı şu kadar tut</string>
+    <string name="smart_clipboard_expiration_1_week">1 hafta</string>
+    <string name="smart_clipboard_empty">Kenar Çubuğu\'nda tutmak için metin ve görselleri buraya kopyalayın, paylaşın veya sürükleyin.</string>
+    <string name="smart_clipboard_copy">Yeniden kopyala</string>
+    <string name="smart_clipboard_copy_description">Pano öğesini yeniden kopyala</string>
+    <string name="smart_clipboard_share_description">Pano öğesini paylaş</string>
+    <string name="smart_clipboard_delete_description">Pano öğesini sil</string>
+    <string name="smart_clipboard_pin_description">Pano öğesini sabitle</string>
+    <string name="smart_clipboard_unpin_description">Pano öğesinin sabitlemesini kaldır</string>
+    <string name="smart_clipboard_image_description">Pano görsel önizlemesi</string>
+    <string name="smart_clipboard_text_description">Pano metin öğesi</string>
+    <string name="smart_clipboard_file_description">Pano dosya öğesi</string>
+    <string name="smart_clipboard_saved">Akıllı Pano\'ya kaydedildi</string>
+    <string name="smart_clipboard_unsupported">Desteklenmeyen içerik türü</string>
+    <string name="smart_clipboard_file_too_large">Dosya kaydetmek için çok büyük (en fazla 100 MB)</string>
+    <string name="smart_clipboard_enabled">Akıllı Pano etkin</string>
+    <string name="smart_clipboard_clear_history">Geçmişi şimdi temizle</string>
+    <string name="smart_clipboard_clear_title">Panoyu temizle</string>
+    <string name="smart_clipboard_clear_message">Sabitlenmemiş pano geçmişini temizlemek istediğinizden emin misiniz?</string>
+    <string name="smart_clipboard_missing_file">Dosya eksik</string>
 </resources>

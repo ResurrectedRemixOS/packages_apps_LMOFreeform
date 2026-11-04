@@ -3,4 +3,5 @@
     <string name="freeform_options">"ຕົວເລືອກ"</string>
     <string name="freeform_fullscreen">"ເຕັມຈໍ"</string>
     <string name="freeform_minimize">"ຫຍໍ້ລົງ"</string>
+    <string name="freeform_close">ປິດ</string>
 </resources>

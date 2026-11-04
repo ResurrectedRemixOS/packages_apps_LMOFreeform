@@ -3,4 +3,5 @@
     <string name="freeform_options">"ვარიანტები"</string>
     <string name="freeform_fullscreen">"სრულ ეკრანზე"</string>
     <string name="freeform_minimize">"ჩაკეცვა"</string>
+    <string name="freeform_close">დახურვა</string>
 </resources>

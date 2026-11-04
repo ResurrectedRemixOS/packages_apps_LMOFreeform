@@ -3,4 +3,5 @@
     <string name="freeform_options">"Valikud"</string>
     <string name="freeform_fullscreen">"Täisekraan"</string>
     <string name="freeform_minimize">"Minimeeri"</string>
+    <string name="freeform_close">Sulge</string>
 </resources>

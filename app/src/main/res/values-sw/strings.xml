@@ -3,4 +3,5 @@
     <string name="freeform_options">"Chaguo"</string>
     <string name="freeform_fullscreen">"Skrini nzima"</string>
     <string name="freeform_minimize">"Punguza"</string>
+    <string name="freeform_close">Funga</string>
 </resources>

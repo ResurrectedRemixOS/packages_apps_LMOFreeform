@@ -3,4 +3,5 @@
     <string name="freeform_options">"Tuỳ chọn"</string>
     <string name="freeform_fullscreen">"Toàn màn hình"</string>
     <string name="freeform_minimize">"Thu nhỏ"</string>
+    <string name="freeform_close">Đóng</string>
 </resources>

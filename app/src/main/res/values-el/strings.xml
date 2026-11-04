@@ -3,4 +3,5 @@
     <string name="freeform_options">"Επιλογές"</string>
     <string name="freeform_fullscreen">"Πλήρης οθόνη"</string>
     <string name="freeform_minimize">"Ελαχιστοποίηση"</string>
+    <string name="freeform_close">Κλείσιμο</string>
 </resources>

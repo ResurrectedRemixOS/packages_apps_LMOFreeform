@@ -3,4 +3,5 @@
     <string name="freeform_options">"ବିକଳ୍ପ"</string>
     <string name="freeform_fullscreen">"ପୂର୍ଣ୍ଣସ୍କ୍ରିନ"</string>
     <string name="freeform_minimize">"ଛୋଟ କରନ୍ତୁ"</string>
+    <string name="freeform_close">ବନ୍ଦ କରନ୍ତୁ</string>
 </resources>

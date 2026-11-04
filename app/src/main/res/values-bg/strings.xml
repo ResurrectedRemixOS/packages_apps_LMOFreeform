@@ -3,4 +3,5 @@
     <string name="freeform_options">"Опции"</string>
     <string name="freeform_fullscreen">"Цял екран"</string>
     <string name="freeform_minimize">"Намаляване"</string>
+    <string name="freeform_close">Затваряне</string>
 </resources>

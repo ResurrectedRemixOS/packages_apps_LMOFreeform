@@ -3,4 +3,5 @@
     <string name="freeform_options">"Valkostir"</string>
     <string name="freeform_fullscreen">"Allur skjárinn"</string>
     <string name="freeform_minimize">"Minnka"</string>
+    <string name="freeform_close">Loka</string>
 </resources>

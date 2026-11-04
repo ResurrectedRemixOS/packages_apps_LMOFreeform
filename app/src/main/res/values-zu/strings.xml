@@ -3,4 +3,5 @@
     <string name="freeform_options">"Izinketho"</string>
     <string name="freeform_fullscreen">"Isikrini esigcwele"</string>
     <string name="freeform_minimize">"Nciphisa"</string>
+    <string name="freeform_close">Vala</string>
 </resources>

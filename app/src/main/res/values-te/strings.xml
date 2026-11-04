@@ -3,4 +3,5 @@
     <string name="freeform_options">"ఆప్షన్‌లు"</string>
     <string name="freeform_fullscreen">"ఫుల్-స్క్రీన్"</string>
     <string name="freeform_minimize">"కుదించండి"</string>
+    <string name="freeform_close">మూసివేయి</string>
 </resources>

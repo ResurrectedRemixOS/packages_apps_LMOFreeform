@@ -3,4 +3,5 @@
     <string name="freeform_options">"Opzioni"</string>
     <string name="freeform_fullscreen">"Schermo intero"</string>
     <string name="freeform_minimize">"Riduci"</string>
+    <string name="freeform_close">Chiudi</string>
 </resources>

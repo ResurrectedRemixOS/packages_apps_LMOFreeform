@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"Cancelar"</string>
     <string name="smart_clipboard_unpin">Quitar</string>
     <string name="smart_clipboard_clear">Borrar</string>
+    <string name="smart_clipboard_label">Portapapeles inteligente</string>
+    <string name="smart_clipboard_summary">Guarda el texto o las imágenes copiados, compartidos o arrastrados en la barra lateral para reutilizarlos rápidamente</string>
+    <string name="smart_clipboard_expiration_label">Conservar los clips durante</string>
+    <string name="smart_clipboard_expiration_1_week">1 semana</string>
+    <string name="smart_clipboard_empty">Copia, comparte o arrastra texto e imágenes aquí para guardarlos en la barra lateral.</string>
+    <string name="smart_clipboard_copy">Copiar de nuevo</string>
+    <string name="smart_clipboard_copy_description">Copiar de nuevo el elemento del portapapeles</string>
+    <string name="smart_clipboard_share_description">Compartir elemento del portapapeles</string>
+    <string name="smart_clipboard_delete_description">Eliminar elemento del portapapeles</string>
+    <string name="smart_clipboard_pin_description">Fijar elemento del portapapeles</string>
+    <string name="smart_clipboard_unpin_description">Desfijar elemento del portapapeles</string>
+    <string name="smart_clipboard_image_description">Vista previa de la imagen del portapapeles</string>
+    <string name="smart_clipboard_text_description">Elemento de texto del portapapeles</string>
+    <string name="smart_clipboard_file_description">Elemento de archivo del portapapeles</string>
+    <string name="smart_clipboard_saved">Guardado en el portapapeles inteligente</string>
+    <string name="smart_clipboard_unsupported">Tipo de contenido no compatible</string>
+    <string name="smart_clipboard_file_too_large">El archivo es demasiado grande para guardarlo (máx. 100 MB)</string>
+    <string name="smart_clipboard_enabled">Portapapeles inteligente activado</string>
+    <string name="smart_clipboard_clear_history">Borrar historial ahora</string>
+    <string name="smart_clipboard_clear_title">Borrar portapapeles</string>
+    <string name="smart_clipboard_clear_message">¿Seguro que quieres borrar el historial del portapapeles no fijado?</string>
+    <string name="smart_clipboard_missing_file">Archivo no encontrado</string>
 </resources>

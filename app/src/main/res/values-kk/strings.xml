@@ -3,4 +3,5 @@
     <string name="freeform_options">"Опциялар"</string>
     <string name="freeform_fullscreen">"Толық экран"</string>
     <string name="freeform_minimize">"Жию"</string>
+    <string name="freeform_close">Жабу</string>
 </resources>

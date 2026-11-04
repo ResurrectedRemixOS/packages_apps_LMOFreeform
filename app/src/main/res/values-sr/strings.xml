@@ -3,4 +3,5 @@
     <string name="freeform_options">"Опције"</string>
     <string name="freeform_fullscreen">"Преко целог екрана"</string>
     <string name="freeform_minimize">"Умањи"</string>
+    <string name="freeform_close">Затвори</string>
 </resources>

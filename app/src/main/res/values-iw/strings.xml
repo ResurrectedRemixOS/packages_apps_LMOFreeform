@@ -3,4 +3,5 @@
     <string name="freeform_options">"אפשרויות"</string>
     <string name="freeform_fullscreen">"מסך מלא"</string>
     <string name="freeform_minimize">"ברמה מינימלית"</string>
+    <string name="freeform_close">סגור</string>
 </resources>

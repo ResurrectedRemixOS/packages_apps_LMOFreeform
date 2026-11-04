@@ -3,4 +3,5 @@
     <string name="freeform_options">"አማራጮች"</string>
     <string name="freeform_fullscreen">"ሙሉ ማያ"</string>
     <string name="freeform_minimize">"አሳንስ"</string>
+    <string name="freeform_close">ዝጋ</string>
 </resources>

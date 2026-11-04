@@ -3,4 +3,5 @@
     <string name="freeform_options">"વિકલ્પો"</string>
     <string name="freeform_fullscreen">"પૂર્ણસ્ક્રીન"</string>
     <string name="freeform_minimize">"નાનું કરો"</string>
+    <string name="freeform_close">બંધ કરો</string>
 </resources>

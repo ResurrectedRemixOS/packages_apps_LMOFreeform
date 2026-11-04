@@ -3,4 +3,5 @@
     <string name="freeform_options">"Opțiuni"</string>
     <string name="freeform_fullscreen">"Ecran complet"</string>
     <string name="freeform_minimize">"Minimizează"</string>
+    <string name="freeform_close">Închide</string>
 </resources>

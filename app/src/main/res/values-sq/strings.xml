@@ -3,4 +3,5 @@
     <string name="freeform_options">"Opsionet"</string>
     <string name="freeform_fullscreen">"Ekrani i plotë"</string>
     <string name="freeform_minimize">"Minimizo"</string>
+    <string name="freeform_close">Mbyll</string>
 </resources>

@@ -3,4 +3,5 @@
     <string name="freeform_options">"বিকল্প"</string>
     <string name="freeform_fullscreen">"ফুলস্ক্রিন"</string>
     <string name="freeform_minimize">"ছোট করা"</string>
+    <string name="freeform_close">বন্ধ করুন</string>
 </resources>

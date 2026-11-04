@@ -3,4 +3,5 @@
     <string name="freeform_options">"Aukerak"</string>
     <string name="freeform_fullscreen">"Pantaila osoa"</string>
     <string name="freeform_minimize">"Minimizatu"</string>
+    <string name="freeform_close">Itxi</string>
 </resources>

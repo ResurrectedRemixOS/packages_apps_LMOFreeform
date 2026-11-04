@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"Отмена"</string>
     <string name="smart_clipboard_unpin">Открепить</string>
     <string name="smart_clipboard_clear">Очистить</string>
+    <string name="smart_clipboard_label">Умный буфер обмена</string>
+    <string name="smart_clipboard_summary">Сохранять скопированный, переданный и перетащенный текст или изображения в боковой панели для быстрого повторного использования</string>
+    <string name="smart_clipboard_expiration_label">Хранить фрагменты</string>
+    <string name="smart_clipboard_expiration_1_week">1 неделя</string>
+    <string name="smart_clipboard_empty">Копируйте, передавайте или перетаскивайте сюда текст и изображения, чтобы сохранить их в боковой панели.</string>
+    <string name="smart_clipboard_copy">Копировать снова</string>
+    <string name="smart_clipboard_copy_description">Копировать элемент буфера снова</string>
+    <string name="smart_clipboard_share_description">Поделиться элементом буфера</string>
+    <string name="smart_clipboard_delete_description">Удалить элемент буфера обмена</string>
+    <string name="smart_clipboard_pin_description">Закрепить элемент буфера обмена</string>
+    <string name="smart_clipboard_unpin_description">Открепить элемент буфера обмена</string>
+    <string name="smart_clipboard_image_description">Предпросмотр изображения из буфера обмена</string>
+    <string name="smart_clipboard_text_description">Текстовый элемент буфера обмена</string>
+    <string name="smart_clipboard_file_description">Файл из буфера обмена</string>
+    <string name="smart_clipboard_saved">Сохранено в умный буфер обмена</string>
+    <string name="smart_clipboard_unsupported">Неподдерживаемый тип содержимого</string>
+    <string name="smart_clipboard_file_too_large">Файл слишком большой для сохранения (максимум 100 МБ)</string>
+    <string name="smart_clipboard_enabled">Умный буфер обмена включён</string>
+    <string name="smart_clipboard_clear_history">Очистить историю</string>
+    <string name="smart_clipboard_clear_title">Очистить буфер обмена</string>
+    <string name="smart_clipboard_clear_message">Очистить историю буфера обмена без закреплённых элементов?</string>
+    <string name="smart_clipboard_missing_file">Файл отсутствует</string>
 </resources>

@@ -19,4 +19,26 @@
     <string name="smart_clipboard_cancel">"取消"</string>
     <string name="smart_clipboard_unpin">取消固定</string>
     <string name="smart_clipboard_clear">清除</string>
+    <string name="smart_clipboard_label">智慧剪貼簿</string>
+    <string name="smart_clipboard_summary">將複製、分享或拖放的文字或圖片保留在側邊欄中，便於快速重複使用</string>
+    <string name="smart_clipboard_expiration_label">保留剪貼內容時長</string>
+    <string name="smart_clipboard_expiration_1_week">1 周</string>
+    <string name="smart_clipboard_empty">在此複製、分享或拖放文字和圖片，即可將其保留在側邊欄中。</string>
+    <string name="smart_clipboard_copy">再次複製</string>
+    <string name="smart_clipboard_copy_description">再次複製剪貼簿專案</string>
+    <string name="smart_clipboard_share_description">分享剪貼簿專案</string>
+    <string name="smart_clipboard_delete_description">刪除剪貼簿專案</string>
+    <string name="smart_clipboard_pin_description">置頂剪貼簿專案</string>
+    <string name="smart_clipboard_unpin_description">取消置頂剪貼簿專案</string>
+    <string name="smart_clipboard_image_description">剪貼簿圖片預覽</string>
+    <string name="smart_clipboard_text_description">剪貼簿文字專案</string>
+    <string name="smart_clipboard_file_description">剪貼簿檔案專案</string>
+    <string name="smart_clipboard_saved">已儲存到智慧剪貼簿</string>
+    <string name="smart_clipboard_unsupported">不支援的內容型別</string>
+    <string name="smart_clipboard_file_too_large">檔案過大，無法儲存（最大 100MB）</string>
+    <string name="smart_clipboard_enabled">已啟用智慧剪貼簿</string>
+    <string name="smart_clipboard_clear_history">立即清除歷史記錄</string>
+    <string name="smart_clipboard_clear_title">清除剪貼簿</string>
+    <string name="smart_clipboard_clear_message">確定要清除未置頂的剪貼簿歷史記錄嗎？</string>
+    <string name="smart_clipboard_missing_file">檔案缺失</string>
 </resources>

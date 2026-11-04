@@ -3,4 +3,5 @@
     <string name="freeform_options">"اختیارات"</string>
     <string name="freeform_fullscreen">"مکمل اسکرین"</string>
     <string name="freeform_minimize">"کم کریں"</string>
+    <string name="freeform_close">بند کریں</string>
 </resources>
