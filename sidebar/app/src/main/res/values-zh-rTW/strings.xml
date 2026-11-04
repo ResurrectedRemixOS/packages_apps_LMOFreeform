@@ -17,4 +17,6 @@
     <string name="smart_clipboard_share">"分享"</string>
     <string name="smart_clipboard_delete">"刪除"</string>
     <string name="smart_clipboard_cancel">"取消"</string>
+    <string name="smart_clipboard_unpin">取消固定</string>
+    <string name="smart_clipboard_clear">清除</string>
 </resources>
