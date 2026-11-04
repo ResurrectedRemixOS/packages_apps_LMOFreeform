@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"விருப்பங்கள்"</string>
+    <string name="freeform_fullscreen">"முழுத்திரை"</string>
+    <string name="freeform_minimize">"சிறிதாக்கு"</string>
+</resources>

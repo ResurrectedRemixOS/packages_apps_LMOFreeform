@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">الشريط الجانبي</string>
+    <string name="enable_sideline">استخدام الشريط الجانبي</string>
+    <string name="sidebar_label">الشريط الجانبي</string>
+    <string name="sidebar_summary">فتح التطبيقات بسرعة في نافذة عائمة</string>
+    <string name="sidebar_app_setting_label">التطبيقات المثبتة</string>
+    <string name="sidebar_settings_description">فتح إعدادات الشريط الجانبي</string>
+    <string name="sidebar_predicted_apps">إظهار اقتراحات التطبيق</string>
+    <string name="sidebar_predicted_apps_summary">إظهار حتى 6 تطبيقات مقترحة أسفل التطبيقات المثبتة</string>
+    <string name="smart_clipboard_receiver_label">الشريط الجانبي</string>
+    <string name="smart_clipboard_expiration_15_min">15 دقيقة</string>
+    <string name="smart_clipboard_expiration_1_hour">"ساعة واحدة"</string>
+    <string name="smart_clipboard_expiration_1_day">"يوم واحد"</string>
+    <string name="smart_clipboard_expiration_forever">"للأبد"</string>
+    <string name="smart_clipboard_image">"صورة"</string>
+    <string name="smart_clipboard_share">"مشاركة"</string>
+    <string name="smart_clipboard_delete">"حذف"</string>
+    <string name="smart_clipboard_cancel">"إلغاء"</string>
+</resources>

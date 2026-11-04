@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Бічна панель</string>
+    <string name="enable_sideline">Використовувати бічну панель</string>
+    <string name="sidebar_label">Бічна панель</string>
+    <string name="sidebar_summary">Швидко відкривати застосунки у пливучому вікні</string>
+    <string name="sidebar_app_setting_label">Закріплені додатки</string>
+    <string name="sidebar_settings_description">Відкрити налаштування бічної панелі</string>
+    <string name="sidebar_predicted_apps">Показувати рекомендовані програми</string>
+    <string name="sidebar_predicted_apps_summary">Показати запропоновані нижче 6 додатків</string>
+    <string name="smart_clipboard_receiver_label">Бічна панель</string>
+    <string name="smart_clipboard_expiration_15_min">"15 хвилин"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 година"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 день"</string>
+    <string name="smart_clipboard_expiration_forever">"Постійно"</string>
+    <string name="smart_clipboard_image">"Зображення"</string>
+    <string name="smart_clipboard_share">"Поділитися"</string>
+    <string name="smart_clipboard_delete">"Видалити"</string>
+    <string name="smart_clipboard_cancel">"Скасувати"</string>
+</resources>

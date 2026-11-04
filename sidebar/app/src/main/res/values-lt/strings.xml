@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 min."</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 val."</string>
+    <string name="smart_clipboard_expiration_1_day">"1 d."</string>
+    <string name="smart_clipboard_expiration_forever">"Visada"</string>
+    <string name="smart_clipboard_image">"Vaizdas"</string>
+    <string name="smart_clipboard_share">"Bendrinti"</string>
+    <string name="smart_clipboard_delete">"Ištrinti"</string>
+    <string name="smart_clipboard_cancel">"Atšaukti"</string>
+</resources>

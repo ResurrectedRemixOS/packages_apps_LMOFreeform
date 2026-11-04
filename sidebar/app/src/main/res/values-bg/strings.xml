@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Страничен панел</string>
+    <string name="enable_sideline">Използвай \"Страничен панел\"</string>
+    <string name="sidebar_label">Страничен панел</string>
+    <string name="sidebar_summary">Бързо отваряне на приложения в летящ прозорец</string>
+    <string name="sidebar_app_setting_label">Закачени приложения</string>
+    <string name="sidebar_settings_description">Отвори настройки на страничният панел</string>
+    <string name="sidebar_predicted_apps">Покажи предложения за приложения</string>
+    <string name="sidebar_predicted_apps_summary">Покажи до 6 предложени приложения под закачените</string>
+    <string name="smart_clipboard_receiver_label">Страничен панел</string>
+    <string name="smart_clipboard_expiration_15_min">"15 минути"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 час"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 ден"</string>
+    <string name="smart_clipboard_expiration_forever">"Винаги"</string>
+    <string name="smart_clipboard_image">"Изображение"</string>
+    <string name="smart_clipboard_share">"Споделяне"</string>
+    <string name="smart_clipboard_delete">"Изтриване"</string>
+    <string name="smart_clipboard_cancel">"Отказ"</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">15分</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 時間"</string>
+    <string name="smart_clipboard_expiration_1_day">"1日"</string>
+    <string name="smart_clipboard_expiration_forever">永久に繰り返し</string>
+    <string name="smart_clipboard_image">"画像"</string>
+    <string name="smart_clipboard_share">"共有"</string>
+    <string name="smart_clipboard_delete">"削除"</string>
+    <string name="smart_clipboard_cancel">"キャンセル"</string>
+</resources>

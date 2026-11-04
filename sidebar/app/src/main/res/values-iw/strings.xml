@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 דקות"</string>
+    <string name="smart_clipboard_expiration_1_hour">"שעה אחת"</string>
+    <string name="smart_clipboard_expiration_1_day">"יום אחד"</string>
+    <string name="smart_clipboard_expiration_forever">"ללא תאריך סיום"</string>
+    <string name="smart_clipboard_image">"תמונה"</string>
+    <string name="smart_clipboard_share">"שיתוף"</string>
+    <string name="smart_clipboard_delete">"מחיקה"</string>
+    <string name="smart_clipboard_cancel">"ביטול"</string>
+</resources>

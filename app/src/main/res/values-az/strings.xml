@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"Seçimlər"</string>
+    <string name="freeform_fullscreen">"Tam Ekran"</string>
+    <string name="freeform_minimize">"Kiçildin"</string>
+</resources>

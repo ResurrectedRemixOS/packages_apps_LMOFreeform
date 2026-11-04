@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 minūtes"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 stunda"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 diena"</string>
+    <string name="smart_clipboard_expiration_forever">"Bezgalīgi"</string>
+    <string name="smart_clipboard_image">"Attēls"</string>
+    <string name="smart_clipboard_share">"Kopīgot"</string>
+    <string name="smart_clipboard_delete">"Dzēst"</string>
+    <string name="smart_clipboard_cancel">"Atcelt"</string>
+</resources>

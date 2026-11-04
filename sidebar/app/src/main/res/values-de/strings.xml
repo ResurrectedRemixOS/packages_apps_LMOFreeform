@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Seitenleiste</string>
+    <string name="enable_sideline">Seitenleiste verwenden</string>
+    <string name="sidebar_label">Seitenleiste</string>
+    <string name="sidebar_summary">Schnellstart von Apps in einem schwebenden Fenster</string>
+    <string name="sidebar_app_setting_label">Angeheftete Apps</string>
+    <string name="sidebar_settings_description">Seitenleisten-Einstellungen öffnen</string>
+    <string name="sidebar_predicted_apps">App-Vorschläge anzeigen</string>
+    <string name="sidebar_predicted_apps_summary">Bis zu 6 vorgeschlagene Apps unter angepinnten Apps anzeigen</string>
+    <string name="smart_clipboard_receiver_label">Seitenleiste</string>
+    <string name="smart_clipboard_expiration_15_min">15 Minuten</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 Stunde"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 Tag"</string>
+    <string name="smart_clipboard_expiration_forever">"Dauerhaft"</string>
+    <string name="smart_clipboard_image">"Bild"</string>
+    <string name="smart_clipboard_share">"Teilen"</string>
+    <string name="smart_clipboard_delete">"Löschen"</string>
+    <string name="smart_clipboard_cancel">"Abbrechen"</string>
+</resources>

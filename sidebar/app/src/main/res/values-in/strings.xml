@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bilah sisi</string>
+    <string name="enable_sideline">Gunakan Bilah Sisi</string>
+    <string name="sidebar_label">Bilah sisi</string>
+    <string name="sidebar_summary">Buka aplikasi dengan cepat di jendela mengambang</string>
+    <string name="sidebar_app_setting_label">Aplikasi yang disematkan</string>
+    <string name="sidebar_settings_description">Buka pengaturan bilah sisi</string>
+    <string name="sidebar_predicted_apps">Tampilkan saran aplikasi</string>
+    <string name="sidebar_predicted_apps_summary">Tampilkan hingga 6 saran aplikasi di bawah aplikasi yang disematkan</string>
+    <string name="smart_clipboard_receiver_label">Bilah sisi</string>
+    <string name="smart_clipboard_expiration_15_min">"15 menit"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 jam"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 hari"</string>
+    <string name="smart_clipboard_expiration_forever">"Selamanya"</string>
+    <string name="smart_clipboard_image">"Gambar"</string>
+    <string name="smart_clipboard_share">"Bagikan"</string>
+    <string name="smart_clipboard_delete">"Hapus"</string>
+    <string name="smart_clipboard_cancel">"Batal"</string>
+</resources>

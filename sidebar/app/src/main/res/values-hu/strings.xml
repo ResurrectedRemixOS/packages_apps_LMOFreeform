@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Oldalsáv</string>
+    <string name="enable_sideline">Oldalsáv használata</string>
+    <string name="sidebar_label">Oldalsáv</string>
+    <string name="sidebar_summary">Alkalmazások gyors megnyitása lebegő ablakban</string>
+    <string name="sidebar_app_setting_label">Rögzített alkalmazások</string>
+    <string name="sidebar_settings_description">Oldalsáv beállításainak megnyitása</string>
+    <string name="sidebar_predicted_apps">Alkalmazásjavaslatok megjelenítése</string>
+    <string name="sidebar_predicted_apps_summary">Legfeljebb 6 javasolt alkalmazás megjelenítése a rögzített alkalmazások alatt</string>
+    <string name="smart_clipboard_receiver_label">Oldalsáv</string>
+    <string name="smart_clipboard_expiration_15_min">"15 perc"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 óra"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 nap"</string>
+    <string name="smart_clipboard_expiration_forever">"Végtelenszer"</string>
+    <string name="smart_clipboard_image">"Kép"</string>
+    <string name="smart_clipboard_share">"Megosztás"</string>
+    <string name="smart_clipboard_delete">"Törlés"</string>
+    <string name="smart_clipboard_cancel">"Mégse"</string>
+</resources>

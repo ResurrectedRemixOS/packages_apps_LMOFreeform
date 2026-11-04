@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">15 Minutten</string>
+    <string name="smart_clipboard_expiration_1_hour">1 Stonn</string>
+    <string name="smart_clipboard_expiration_1_day">1 Dag</string>
+    <string name="smart_clipboard_expiration_forever">Fir ëmmer</string>
+    <string name="smart_clipboard_share">Deelen</string>
+    <string name="smart_clipboard_delete">Läschen</string>
+    <string name="smart_clipboard_cancel">Ofbriechen</string>
+</resources>

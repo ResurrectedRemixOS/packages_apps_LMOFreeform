@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">侧边栏</string>
+    <string name="enable_sideline">使用侧边栏</string>
+    <string name="sidebar_label">侧边栏</string>
+    <string name="sidebar_summary">快速打开小窗化应用</string>
+    <string name="sidebar_app_setting_label">固定的应用</string>
+    <string name="sidebar_settings_description">打开侧边栏设置</string>
+    <string name="sidebar_predicted_apps">显示应用建议</string>
+    <string name="sidebar_predicted_apps_summary">在固定的应用下方显示至多6个建议应用</string>
+    <string name="smart_clipboard_receiver_label">侧边栏</string>
+    <string name="smart_clipboard_expiration_15_min">"15 分钟"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 小时"</string>
+    <string name="smart_clipboard_expiration_1_day">"1天"</string>
+    <string name="smart_clipboard_expiration_forever">"无限重复"</string>
+    <string name="smart_clipboard_image">"图片"</string>
+    <string name="smart_clipboard_share">"分享"</string>
+    <string name="smart_clipboard_delete">"删除"</string>
+    <string name="smart_clipboard_cancel">"取消"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"Optionen"</string>
+    <string name="freeform_fullscreen">"Vollbild"</string>
+    <string name="freeform_minimize">"Minimieren"</string>
+</resources>

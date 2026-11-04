@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Bara laterală</string>
+    <string name="enable_sideline">Folosește bara laterală</string>
+    <string name="sidebar_label">Bara laterală</string>
+    <string name="sidebar_summary">Deschideți rapid aplicațiile într-o fereastră plutitoare</string>
+    <string name="sidebar_app_setting_label">Aplicații fixate</string>
+    <string name="sidebar_settings_description">Deschideți setările barei laterale</string>
+    <string name="sidebar_predicted_apps">Arată sugestiile aplicației</string>
+    <string name="sidebar_predicted_apps_summary">Arată până la 6 aplicații sugerate sub aplicații fixate</string>
+    <string name="smart_clipboard_receiver_label">Bara laterală</string>
+    <string name="smart_clipboard_expiration_15_min">"15 minute"</string>
+    <string name="smart_clipboard_expiration_1_hour">"O oră"</string>
+    <string name="smart_clipboard_expiration_1_day">"O zi"</string>
+    <string name="smart_clipboard_expiration_forever">"Întotdeauna"</string>
+    <string name="smart_clipboard_image">"Imagine"</string>
+    <string name="smart_clipboard_share">"Trimite"</string>
+    <string name="smart_clipboard_delete">"Șterge"</string>
+    <string name="smart_clipboard_cancel">"Anulează"</string>
+</resources>

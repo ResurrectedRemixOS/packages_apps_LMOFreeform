@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 мүнөт"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 саат"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 күн"</string>
+    <string name="smart_clipboard_image">"Сүрөт"</string>
+    <string name="smart_clipboard_share">"Бөлүшүү"</string>
+    <string name="smart_clipboard_delete">"Өчүрүү"</string>
+    <string name="smart_clipboard_cancel">"Жок"</string>
+</resources>

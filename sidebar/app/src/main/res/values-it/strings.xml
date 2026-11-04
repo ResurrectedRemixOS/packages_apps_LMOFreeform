@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="enable_sideline">Usa Sidebar</string>
+    <string name="sidebar_summary">Apri rapidamente le app in una finestra fluttuante</string>
+    <string name="sidebar_app_setting_label">App fissate</string>
+    <string name="sidebar_settings_description">Apri impostazioni sidebar</string>
+    <string name="sidebar_predicted_apps">Mostra suggerimenti app</string>
+    <string name="sidebar_predicted_apps_summary">Mostra fino a 6 applicazioni suggerite sotto le app fissate</string>
+    <string name="smart_clipboard_expiration_15_min">"15 minuti"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 ora"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 giorno"</string>
+    <string name="smart_clipboard_expiration_forever">"Sempre"</string>
+    <string name="smart_clipboard_image">"Immagine"</string>
+    <string name="smart_clipboard_share">"Condividi"</string>
+    <string name="smart_clipboard_delete">"Elimina"</string>
+    <string name="smart_clipboard_cancel">"Annulla"</string>
+</resources>

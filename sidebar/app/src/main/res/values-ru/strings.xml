@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Боковая панель</string>
+    <string name="enable_sideline">Использовать панель</string>
+    <string name="sidebar_label">Боковая панель</string>
+    <string name="sidebar_summary">Быстрый запуск приложений из всплывающей панели</string>
+    <string name="sidebar_app_setting_label">Закреплённые приложения</string>
+    <string name="sidebar_settings_description">Открыть настройки боковой панели</string>
+    <string name="sidebar_predicted_apps">Показывать предложения</string>
+    <string name="sidebar_predicted_apps_summary">Показывать до 6 рекомендуемых приложений под закреплёнными приложениями</string>
+    <string name="smart_clipboard_receiver_label">Боковая панель</string>
+    <string name="smart_clipboard_expiration_15_min">15 минут</string>
+    <string name="smart_clipboard_expiration_1_hour">1 час</string>
+    <string name="smart_clipboard_expiration_1_day">"1 день"</string>
+    <string name="smart_clipboard_expiration_forever">Бесконечно</string>
+    <string name="smart_clipboard_image">"Изображение"</string>
+    <string name="smart_clipboard_share">"Поделиться"</string>
+    <string name="smart_clipboard_delete">"Удалить"</string>
+    <string name="smart_clipboard_cancel">"Отмена"</string>
+</resources>

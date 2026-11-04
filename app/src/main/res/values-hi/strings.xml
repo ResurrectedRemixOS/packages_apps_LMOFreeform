@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"विकल्प"</string>
+    <string name="freeform_fullscreen">"फ़ुलस्क्रीन"</string>
+    <string name="freeform_minimize">"छोटा करें"</string>
+</resources>

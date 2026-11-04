@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ساید بار</string>
+    <string name="enable_sideline">استفاده از ساید بار</string>
+    <string name="sidebar_label">ساید بار</string>
+    <string name="sidebar_summary">بازکردن سریع برنامه ها در پنجره شناور</string>
+    <string name="sidebar_app_setting_label">برنامه های پین شده</string>
+    <string name="sidebar_settings_description">بازکردن تنظیمات ساید بار</string>
+    <string name="sidebar_predicted_apps">نمایش برنامه های پیشنهادی</string>
+    <string name="sidebar_predicted_apps_summary">نمایش حداکثر ۶ برنامه پیشنهادی زیر برنامه های پین شده</string>
+    <string name="smart_clipboard_receiver_label">ساید بار</string>
+    <string name="smart_clipboard_expiration_15_min">"۱۵ دقیقه"</string>
+    <string name="smart_clipboard_expiration_1_hour">"۱ ساعت"</string>
+    <string name="smart_clipboard_expiration_1_day">"۱ روز"</string>
+    <string name="smart_clipboard_expiration_forever">"همیشه"</string>
+    <string name="smart_clipboard_image">"تصویر"</string>
+    <string name="smart_clipboard_share">"هم‌رسانی"</string>
+    <string name="smart_clipboard_delete">"حذف"</string>
+    <string name="smart_clipboard_cancel">"لغو"</string>
+</resources>

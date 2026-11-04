@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"ជម្រើស"</string>
+    <string name="freeform_fullscreen">"អេក្រង់​ពេញ"</string>
+    <string name="freeform_minimize">"បង្រួម"</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"Opsi"</string>
+    <string name="freeform_fullscreen">"Layar Penuh"</string>
+    <string name="freeform_minimize">"Perkecil"</string>
+</resources>

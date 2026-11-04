@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">Cairteal na h-uarach</string>
+    <string name="smart_clipboard_expiration_1_hour">Uair a thìde</string>
+    <string name="smart_clipboard_expiration_1_day">Latha</string>
+    <string name="smart_clipboard_expiration_forever">Gu bràth</string>
+    <string name="smart_clipboard_image">Dealbh</string>
+    <string name="smart_clipboard_share">Co-roinn</string>
+    <string name="smart_clipboard_delete">Sguab às</string>
+    <string name="smart_clipboard_cancel">Sguir dheth</string>
+</resources>

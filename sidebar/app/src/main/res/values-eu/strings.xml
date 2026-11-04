@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">15 minutu</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 ordu"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 egun"</string>
+    <string name="smart_clipboard_expiration_forever">Beti</string>
+    <string name="smart_clipboard_image">"Irudia"</string>
+    <string name="smart_clipboard_share">"Partekatu"</string>
+    <string name="smart_clipboard_delete">"Ezabatu"</string>
+    <string name="smart_clipboard_cancel">"Utzi"</string>
+</resources>

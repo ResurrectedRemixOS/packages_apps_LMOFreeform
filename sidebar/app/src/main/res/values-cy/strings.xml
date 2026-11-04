@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">15 munud</string>
+    <string name="smart_clipboard_expiration_1_hour">1 awr</string>
+    <string name="smart_clipboard_expiration_1_day">1 diwrnod</string>
+    <string name="smart_clipboard_expiration_forever">Am byth</string>
+    <string name="smart_clipboard_image">Delwedd</string>
+    <string name="smart_clipboard_share">Rhannu</string>
+    <string name="smart_clipboard_delete">Dileu</string>
+    <string name="smart_clipboard_cancel">Diddymu</string>
+</resources>

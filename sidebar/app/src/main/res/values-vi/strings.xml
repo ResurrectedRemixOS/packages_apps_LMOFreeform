@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Thanh bên</string>
+    <string name="enable_sideline">Sử dụng thanh bên</string>
+    <string name="sidebar_label">Thanh bên</string>
+    <string name="sidebar_summary">Mở nhanh ứng dụng trong cửa sổ nổi</string>
+    <string name="sidebar_app_setting_label">Ứng dụng được ghim</string>
+    <string name="sidebar_settings_description">Mở cài đặt thanh bên</string>
+    <string name="sidebar_predicted_apps">Hiển thị đề xuất ứng dụng</string>
+    <string name="sidebar_predicted_apps_summary">Hiển thị tối đa 6 ứng dụng được đề xuất bên dưới các ứng dụng được ghim</string>
+    <string name="smart_clipboard_receiver_label">Thanh bên</string>
+    <string name="smart_clipboard_expiration_15_min">"15 phút"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 giờ"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 ngày"</string>
+    <string name="smart_clipboard_expiration_forever">"Vĩnh viễn"</string>
+    <string name="smart_clipboard_image">"Hình ảnh"</string>
+    <string name="smart_clipboard_share">"Chia sẻ"</string>
+    <string name="smart_clipboard_delete">"Xóa"</string>
+    <string name="smart_clipboard_cancel">"Hủy"</string>
+</resources>

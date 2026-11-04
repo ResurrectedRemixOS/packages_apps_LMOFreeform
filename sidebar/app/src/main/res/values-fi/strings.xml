@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">15 minuuttia</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 tunti"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 päivä"</string>
+    <string name="smart_clipboard_expiration_forever">"Ikuisesti"</string>
+    <string name="smart_clipboard_image">"Kuva"</string>
+    <string name="smart_clipboard_share">"Jaa"</string>
+    <string name="smart_clipboard_delete">"Poista"</string>
+    <string name="smart_clipboard_cancel">"Peru"</string>
+</resources>

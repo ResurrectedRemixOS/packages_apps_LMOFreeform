@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 mínútur"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 klukkustund"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 dagur"</string>
+    <string name="smart_clipboard_expiration_forever">Ótímabundið</string>
+    <string name="smart_clipboard_image">"Mynd"</string>
+    <string name="smart_clipboard_share">"Deila"</string>
+    <string name="smart_clipboard_delete">"Eyða"</string>
+    <string name="smart_clipboard_cancel">"Hætta við"</string>
+</resources>

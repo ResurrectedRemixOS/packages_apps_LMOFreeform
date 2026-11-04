@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Barra Lateral</string>
+    <string name="enable_sideline">Ativar Barra Lateral</string>
+    <string name="sidebar_label">Barra Lateral</string>
+    <string name="sidebar_summary">Rapidamente inicia aplicativos em janela flutuante</string>
+    <string name="sidebar_app_setting_label">Aplicativos fixados</string>
+    <string name="sidebar_settings_description">Abrir configurações da barra lateral</string>
+    <string name="sidebar_predicted_apps">Sugestão de aplicativos</string>
+    <string name="sidebar_predicted_apps_summary">Exibir até 6 aplicativos sugeridos abaixo dos aplicativos fixados</string>
+    <string name="smart_clipboard_receiver_label">Barra Lateral</string>
+    <string name="smart_clipboard_expiration_15_min">"15 minutos"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 hora"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 dia"</string>
+    <string name="smart_clipboard_expiration_forever">Para sempre</string>
+    <string name="smart_clipboard_image">"Imagem"</string>
+    <string name="smart_clipboard_share">"Compartilhar"</string>
+    <string name="smart_clipboard_delete">"Excluir"</string>
+    <string name="smart_clipboard_cancel">"Cancelar"</string>
+</resources>

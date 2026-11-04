@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"বিকল্পসমূহ"</string>
+    <string name="freeform_fullscreen">"সম্পূৰ্ণ স্ক্ৰীন"</string>
+    <string name="freeform_minimize">"সৰু কৰক"</string>
+</resources>

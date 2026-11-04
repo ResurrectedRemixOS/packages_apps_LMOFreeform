@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">側邊欄</string>
+    <string name="enable_sideline">使用側邊欄</string>
+    <string name="sidebar_label">側邊欄</string>
+    <string name="sidebar_summary">快速開啟小窗化應用程式</string>
+    <string name="sidebar_app_setting_label">固定的應用</string>
+    <string name="sidebar_settings_description">打開側邊欄設定</string>
+    <string name="sidebar_predicted_apps">顯示應用程式建議</string>
+    <string name="sidebar_predicted_apps_summary">在固定的應用下方顯示至多6個建議應用</string>
+    <string name="smart_clipboard_receiver_label">側邊欄</string>
+    <string name="smart_clipboard_expiration_15_min">"15 分鐘"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 小時"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 天"</string>
+    <string name="smart_clipboard_expiration_forever">"無限期"</string>
+    <string name="smart_clipboard_image">"圖片"</string>
+    <string name="smart_clipboard_share">"分享"</string>
+    <string name="smart_clipboard_delete">"刪除"</string>
+    <string name="smart_clipboard_cancel">"取消"</string>
+</resources>

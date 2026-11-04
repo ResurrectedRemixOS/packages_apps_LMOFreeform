@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="smart_clipboard_expiration_15_min">"15 నిమిషాలు"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 గంట"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 రోజు"</string>
+    <string name="smart_clipboard_expiration_forever">ఎప్పటికీ</string>
+    <string name="smart_clipboard_image">"చిత్రం"</string>
+    <string name="smart_clipboard_share">"షేర్ చేయండి"</string>
+    <string name="smart_clipboard_delete">"తొలగించండి"</string>
+    <string name="smart_clipboard_cancel">"రద్దు చేయండి"</string>
+</resources>

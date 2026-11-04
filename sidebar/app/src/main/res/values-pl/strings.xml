@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Panel boczny</string>
+    <string name="enable_sideline">Użyj paska bocznego</string>
+    <string name="sidebar_label">Panel boczny</string>
+    <string name="sidebar_summary">Szybko otwórz aplikacje w pływającym oknie</string>
+    <string name="sidebar_app_setting_label">Przypięte aplikacje</string>
+    <string name="sidebar_settings_description">Otwórz ustawienia paska bocznego</string>
+    <string name="sidebar_predicted_apps">Pokaż sugerowane aplikacje</string>
+    <string name="sidebar_predicted_apps_summary">Pokaż do 6 sugerowanych aplikacji poniżej przypiętych aplikacji</string>
+    <string name="smart_clipboard_receiver_label">Panel boczny</string>
+    <string name="smart_clipboard_expiration_15_min">15 minut</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 godzina"</string>
+    <string name="smart_clipboard_expiration_1_day">"24 godzin"</string>
+    <string name="smart_clipboard_expiration_forever">"Bez końca"</string>
+    <string name="smart_clipboard_image">"Obraz"</string>
+    <string name="smart_clipboard_share">"Udostępnij"</string>
+    <string name="smart_clipboard_delete">"Usuń"</string>
+    <string name="smart_clipboard_cancel">"Anuluj"</string>
+</resources>

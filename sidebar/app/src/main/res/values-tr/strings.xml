@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Kenar Çubuğu</string>
+    <string name="enable_sideline">Kenar çubuğu kullan</string>
+    <string name="sidebar_label">Kenar Çubuğu</string>
+    <string name="sidebar_summary">Uygulamaları hızlıca yüzen pencerede açın</string>
+    <string name="sidebar_app_setting_label">Sabitlenmiş uygulamalar</string>
+    <string name="sidebar_settings_description">Kenar çubuğu ayarlarını aç</string>
+    <string name="sidebar_predicted_apps">Uygulama önerileri</string>
+    <string name="sidebar_predicted_apps_summary">Sabitlenmiş uygulamaların altında en fazla 6 önerilen uygulamayı göster</string>
+    <string name="smart_clipboard_receiver_label">Kenar Çubuğu</string>
+    <string name="smart_clipboard_expiration_15_min">"15 dakika"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 saat"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 gün"</string>
+    <string name="smart_clipboard_expiration_forever">"Sonsuza kadar"</string>
+    <string name="smart_clipboard_image">"Resim"</string>
+    <string name="smart_clipboard_share">"Paylaş"</string>
+    <string name="smart_clipboard_delete">"Sil"</string>
+    <string name="smart_clipboard_cancel">"İptal"</string>
+</resources>

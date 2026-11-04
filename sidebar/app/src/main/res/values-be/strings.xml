@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Бакавая панэль</string>
+    <string name="enable_sideline">Выкарыстоўваць бакавую панэль</string>
+    <string name="sidebar_label">Бакавая панэль</string>
+    <string name="sidebar_summary">Хутка адкрывайце праграмы ў плаваючым акне</string>
+    <string name="sidebar_app_setting_label">Замацаваныя праграмы</string>
+    <string name="sidebar_settings_description">Адкрыць налады бакавой панэлі</string>
+    <string name="sidebar_predicted_apps">Паказваць прапановы праграм</string>
+    <string name="sidebar_predicted_apps_summary">Паказваць да 6 прапанаваных праграм пад замацаванымі</string>
+    <string name="smart_clipboard_receiver_label">Бакавая панэль</string>
+    <string name="smart_clipboard_expiration_15_min">15 хвілін</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 гадзіна"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 дзень"</string>
+    <string name="smart_clipboard_expiration_forever">"Назаўсёды"</string>
+    <string name="smart_clipboard_image">"Відарыс"</string>
+    <string name="smart_clipboard_share">"Абагуліць"</string>
+    <string name="smart_clipboard_delete">"Выдаліць"</string>
+    <string name="smart_clipboard_cancel">"Скасаваць"</string>
+</resources>

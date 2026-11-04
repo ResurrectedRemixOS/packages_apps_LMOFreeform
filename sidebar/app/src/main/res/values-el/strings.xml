@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Πλαϊνή μπάρα</string>
+    <string name="enable_sideline">Χρήση Πλαϊνής Μπάρας</string>
+    <string name="sidebar_label">Πλαϊνή μπάρα</string>
+    <string name="sidebar_summary">Γρήγορο άνοιγμα εφαρμογών σε αιωρούμενο παράθυρο</string>
+    <string name="sidebar_app_setting_label">Καρφιτσωμένες εφαρμογές</string>
+    <string name="sidebar_settings_description">Άνοιγμα ρυθμίσεων πλαϊνής μπάρας</string>
+    <string name="sidebar_predicted_apps">Εμφάνιση προτάσεων εφαρμογών</string>
+    <string name="sidebar_predicted_apps_summary">Εμφάνιση έως και 6 προτεινόμενων εφαρμογών κάτω από καρφιτσωμένες εφαρμογές</string>
+    <string name="smart_clipboard_receiver_label">Πλαϊνή μπάρα</string>
+    <string name="smart_clipboard_expiration_15_min">"15 λεπτά"</string>
+    <string name="smart_clipboard_expiration_1_hour">"1 ώρα"</string>
+    <string name="smart_clipboard_expiration_1_day">"1 ημέρα"</string>
+    <string name="smart_clipboard_expiration_forever">"Για πάντα"</string>
+    <string name="smart_clipboard_image">"Εικόνα"</string>
+    <string name="smart_clipboard_share">"Κοινοποίηση"</string>
+    <string name="smart_clipboard_delete">"Διαγραφή"</string>
+    <string name="smart_clipboard_cancel">"Ακύρωση"</string>
+</resources>

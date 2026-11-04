@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"Opțiuni"</string>
+    <string name="freeform_fullscreen">"Ecran complet"</string>
+    <string name="freeform_minimize">"Minimizează"</string>
+</resources>

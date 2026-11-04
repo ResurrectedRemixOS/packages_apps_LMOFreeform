@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="freeform_options">"Izinketho"</string>
+    <string name="freeform_fullscreen">"Isikrini esigcwele"</string>
+    <string name="freeform_minimize">"Nciphisa"</string>
+</resources>
