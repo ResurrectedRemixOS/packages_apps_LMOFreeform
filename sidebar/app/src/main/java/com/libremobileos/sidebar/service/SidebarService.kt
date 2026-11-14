@@ -107,6 +107,15 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
     }
 
     private var isGameSpaceActive = false
+    private val gameObserver = object : ContentObserver(handler) {
+        override fun onChange(selfChange: Boolean) {
+            isGameSpaceActive = readGameSpaceActive()
+            updateSidebarVisibility()
+        }
+    }
+
+    private fun readGameSpaceActive() = android.provider.Settings.Secure.getInt(
+        contentResolver, KEY_GAMING_MODE_ACTIVE, 0) == 1
 
     private val isPortrait: Boolean
         get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
@@ -139,6 +148,7 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
             "com.libremobileos.sidebar.action.SHOW_SIDEBAR"
         private const val RR_HANDLE_SIZE = "rr_sidebar_handle_size"
         private const val RR_STYLE = "rr_sidebar_style"
+        private const val KEY_GAMING_MODE_ACTIVE = "ax_gaming_mode_active"
     }
 
     override fun onBind(intent: Intent): IBinder? {
@@ -183,6 +193,11 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
                 )
             }
             applyRrHandle()
+            contentResolver.registerContentObserver(
+                android.provider.Settings.Secure.getUriFor(KEY_GAMING_MODE_ACTIVE), false,
+                gameObserver
+            )
+            isGameSpaceActive = readGameSpaceActive()
             isShowingSidebar = false
             showSideline = sharedPrefs.getBoolean(SIDELINE, false)
             logger.d("screenWidth=$screenWidth screenHeight=$screenHeight showSideline=$showSideline")
@@ -247,6 +262,7 @@ class SidebarService : Service(), SharedPreferences.OnSharedPreferenceChangeList
         if (!serviceStarted) return
         sharedPrefs.unregisterOnSharedPreferenceChangeListener(this)
         contentResolver.unregisterContentObserver(rrObserver)
+        contentResolver.unregisterContentObserver(gameObserver)
         iActivityManager.unregisterUserSwitchObserver(userSwitchObserver)
         removeView(force = true)
         viewModel.unregisterCallbacks()
